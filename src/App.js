@@ -1,7 +1,10 @@
 function App() {
+  const handleClick = () => {
+    console.log("Add Animal");
+  };
   return (
     <div className="App">
-      <h1>Hello, world!</h1>
+      <button onClick={handleClick}>Add Animal</button>
     </div>
   );
 }
